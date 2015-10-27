@@ -1,0 +1,37 @@
+
+.SmallRate {
+  box-shadow: 3px 3px 20px #f3f3f3;
+  font-family: "Roboto";
+  font-weight: 100;
+  margin-top: 20pt;
+  height: 110pt;
+  background-color: white;
+  color: #595959;
+}
+.SmallRate .data {
+  font-size: 12pt;
+  padding-top: 10px;
+  text-align: center;
+}
+.SmallRate h1 {
+  font-size: 37pt;
+  margin: 10px;
+  text-align: center;
+}
+.SmallRate .difference {
+  font-size: 12pt;
+  text-align: center;
+  text-indent: 100px;
+}
+.SmallRate .bar {
+  height: 6pt;
+  margin-top: 11px;
+}
+
+.SmallRate .bar.green {
+  background-color: #53AF50;
+}
+
+.SmallRate .bar.red {
+  background-color: #F44336;
+}

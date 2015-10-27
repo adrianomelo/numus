@@ -1,0 +1,33 @@
+{
+  "name": "numus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "test",
+    "watch": "webpack --watch",
+    "server": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base app/ --framed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrianomelo/numus.git"
+  },
+  "author": "Adriano Melo",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.3.1",
+    "normalize.css": "^3.0.3",
+    "react": "^0.14.0",
+    "react-d3": "^0.4.0",
+    "react-dom": "^0.14.0",
+    "rx": "^4.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.19.0",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
